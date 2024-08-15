@@ -51,7 +51,7 @@ We use [GitHub](https://github.com/) for versioning. For the versions available,
 
 ## Authors
 
-* **Maksym Varivodin** - *Initial work* - [MaksymVarivodin](https://github.com/MaksimVarivodin~~~~)
+* **Maksym Varivodin** - *Initial work* - [MaksymVarivodin](https://github.com/MaksimVarivodin)
 
 
 ## License
