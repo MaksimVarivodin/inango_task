@@ -47,11 +47,11 @@ ctest
 
 ## Versioning
 
-We use [GitHub](https://github.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/inango_task).
+We use [GitHub](https://github.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/MaksimVarivodin/inango_task).
 
 ## Authors
 
-* **Maksym Varivodin** - *Initial work* - [MaksymVarivodin](https://github.com/yourusername)
+* **Maksym Varivodin** - *Initial work* - [MaksymVarivodin](https://github.com/MaksimVarivodin~~~~)
 
 
 ## License
