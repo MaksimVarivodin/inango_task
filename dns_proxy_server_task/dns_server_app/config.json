@@ -1,0 +1,29 @@
+{
+  "server_name": "clown_town",
+  "ip": "127.0.0.1",
+  "port": 8080,
+  "upstream": {
+    "ip": "127.0.0.1",
+    "port": 8080
+  },
+  "blacklist": [
+    {
+      "name": "domain1.com",
+      "response": "not_found",
+      "ip": "",
+      "port": 0
+    },
+    {
+      "name": "domain2.com",
+      "response": "refused",
+      "ip": "",
+      "port": 0
+    },
+    {
+      "name": "domain3.com",
+      "response": "to resolve",
+      "ip": "127.0.0.1",
+      "port": 8080
+    }
+  ]
+}
