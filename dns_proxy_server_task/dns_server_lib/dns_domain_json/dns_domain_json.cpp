@@ -13,6 +13,9 @@ namespace dns_lib
 
     dns_domain_json::operator dns_domain() const
     {
+#ifndef NDEBUG
+        cout << "=======\t\tParsed domain -> "<< parsed_data_["name"].get<std::string>()<< "\t=======\n";
+#endif
         return {
             parsed_data_["name"].get<std::string>(),
             parsed_data_["response"].get<std::string>(),

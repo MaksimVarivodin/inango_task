@@ -17,9 +17,7 @@ namespace dns_lib
     {
         string name_;
         string response_;
-        //ip
-        // 255.255.255.255 = 12 + 3 symbols + \0
-        char ip_[16] = {};
+        char ip_[INET_ADDRSTRLEN] = {};
         unsigned int port_ = 0;
 
     public:

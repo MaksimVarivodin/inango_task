@@ -18,7 +18,13 @@ int main()
     {
         cout << "file opened\n";
         dns_server server(dns_server::load_from_json(config_file));
+
+        while (true)
+        {
+            cout << server.receive() << endl;
+        }
         config_file.close();
+
     }else cout << "file not opened\n";
 
 
