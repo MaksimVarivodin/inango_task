@@ -12,4 +12,5 @@
 #include "dns_server/dns_server.hpp"
 #include "dns_socket/dns_socket.hpp"
 #include "dns_client/dns_client.hpp"
+#include "dns_packet/dns_packet.hpp"
 #endif //DNS_SERVER_LIB_HPP

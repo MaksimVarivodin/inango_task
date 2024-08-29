@@ -38,6 +38,7 @@ namespace dns_lib
 
         string receive() const;
 
+
     public:
         static dns_server load_from_json(istream& ifs);
     };
