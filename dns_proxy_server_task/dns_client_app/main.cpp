@@ -2,11 +2,13 @@
 // Created by maksymvarivodin on 8/15/24.
 //
 #include "dns_server_lib.hpp"
+#include "dns_header.hpp"
 
 int main(int argc, char* argv[])
 {
     using namespace std;
-    if (argc >= 2)
+    using namespace dns_lib;
+    /*if (argc >= 2)
     {
         sockaddr_in server;
         server.sin_family = AF_INET;
@@ -24,7 +26,11 @@ int main(int argc, char* argv[])
             cout << "Error sending message" << endl;
         else cout << "Sent successfully" << endl;
         close(descriptor);
-    }
+    }*/
+    uint16_t source(5);
+    uint8_t flag(header_flags::get_flag(source, 1, 2));
+    uint16_t modified_flag(header_flags::set_flag(1, 10, 1, 4));
+
 
     return 0;
 }

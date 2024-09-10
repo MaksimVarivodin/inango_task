@@ -12,6 +12,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
         ../dns_server_lib/dns_server
         ../dns_server_lib/dns_server_json
         ../dns_server_lib/dns_domain_json
+        ../dns_server_lib/dns_packet/dns_header
         ../dns_server_lib
 )
 # Подключение библиотеки dns_server_lib
